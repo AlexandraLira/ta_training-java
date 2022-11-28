@@ -97,5 +97,6 @@
         <module>src/main/java/com/epam/training/student_aliaksandra_lira/java_basics/wrapper_classes/battleship8x8
         </module>
         <module>src/main/java/com/epam/training/student_aliaksandra_lira/maven</module>
+        <module>src/main/java/com/epam/training/student_aliaksandra_lira/clean_code/Java</module>
     </modules>
 </project>

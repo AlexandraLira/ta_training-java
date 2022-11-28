@@ -19,10 +19,10 @@ Fields of long type value store 64 bits each. Consider them as 8 rows per 8 cell
   A shot is a combination of one of A-H letters and one of 1-8 digits
 - `public String state()` - Returns a string representing state of the map.
   Map string is 8 lines per 8 characters separated by "\n". Use following symbols:
-  - '.' - an empty cell
-  - '×' - an empty cell that has been shot
-  - '☐' - a cell seized by a ship
-  - '☒'- a cell seized by a ship that has been shot
+    - '.' - an empty cell
+    - '×' - an empty cell that has been shot
+    - '☐' - a cell seized by a ship
+    - '☒'- a cell seized by a ship that has been shot
 
 You must not add or change new fields.
 Consider using static methods of wrapper classes.

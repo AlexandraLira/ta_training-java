@@ -14,9 +14,9 @@ extend [`Figure`](src/main/java/com/epam/rd/autotasks/figures/Figure.java) abstr
 Implement methods in `Triangle`, `Quadrilateral`, `Circle`:
 
 1. constructors with following parameters:
-   * `Triangle` - three vertices (points) as parameters.
-   * `Quadrilateral` - four vertices (points) as parameters.
-   * `Circle` - point of the center and `double` value of the radius.
+    * `Triangle` - three vertices (points) as parameters.
+    * `Quadrilateral` - four vertices (points) as parameters.
+    * `Circle` - point of the center and `double` value of the radius.
 
    All the input datasets in tests are guaranteed to form a non-degenerative figures.
    For Quadrilaterals, it is guaranteed that all test datasets would form a convex quadrilaterals.
@@ -27,30 +27,30 @@ Implement methods in `Triangle`, `Quadrilateral`, `Circle`:
 
 1. `public String pointsToString()`\
    Return a String value in following formats:
-   * `Triangle` -
-      * Format: `(a.x,a.y)(b.x,b.y)(c.x,c.y)`
-      * Example: `(0.0,0.0)(0.1,5.8)(7.0,7.0)`
-   * `Quadrilateral` -
-      * Format: `(a.x,a.y)(b.x,b.y)(c.x,c.y)(d.x, d.y)`
-      * Example: `(0.0,0.0)(0.0,7.1)(7.0,7.0)(7.0,0.0)`
-   * `Circle` -
-      * Format: `(center.x,center.y)`
-      * Example: `(0.0,0.6)`
+    * `Triangle` -
+        * Format: `(a.x,a.y)(b.x,b.y)(c.x,c.y)`
+        * Example: `(0.0,0.0)(0.1,5.8)(7.0,7.0)`
+    * `Quadrilateral` -
+        * Format: `(a.x,a.y)(b.x,b.y)(c.x,c.y)(d.x, d.y)`
+        * Example: `(0.0,0.0)(0.0,7.1)(7.0,7.0)(7.0,0.0)`
+    * `Circle` -
+        * Format: `(center.x,center.y)`
+        * Example: `(0.0,0.6)`
 
    *Note:*: you may benefit from implementing toString() in
    the [`Point`](src/main/java/com/epam/rd/autotasks/figures/Point.java) class
 
 1. `public String toString()`\
    Return a String value in following formats:
-   * `Triangle` -
-      * Format: `Triangle[(a.x,a.y)(b.x,b.y)(c.x,c.y)]`
-      * Example: `Triangle[(0.0,0.0)(0.1,5.8)(7.0,7.0)]`
-   * `Quadrilateral` -
-      * Format: `Quadrilateral[(a.x,a.y)(b.x,b.y)(c.x,c.y)(d.x, d.y)]`
-      * Example: `Quadrilateral[(0.0,0.0)(0.0,7.1)(7.0,7.0)(7.0,0.0)]`
-   * `Circle` -
-      * Format: `Circle[(center.x,center.y)radius]`
-      * Example: `Circle[(0.0,0.6)4.5]`
+    * `Triangle` -
+        * Format: `Triangle[(a.x,a.y)(b.x,b.y)(c.x,c.y)]`
+        * Example: `Triangle[(0.0,0.0)(0.1,5.8)(7.0,7.0)]`
+    * `Quadrilateral` -
+        * Format: `Quadrilateral[(a.x,a.y)(b.x,b.y)(c.x,c.y)(d.x, d.y)]`
+        * Example: `Quadrilateral[(0.0,0.0)(0.0,7.1)(7.0,7.0)(7.0,0.0)]`
+    * `Circle` -
+        * Format: `Circle[(center.x,center.y)radius]`
+        * Example: `Circle[(0.0,0.6)4.5]`
 
    *Note*: you may use default implementation given in the `Figure` class, when it suits a case well.
 
